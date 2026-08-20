@@ -1,0 +1,4 @@
+interface:
+  display_name: "数学学习与证明"
+  short_description: "按照定义与符号顺序讲解数学概念，并逐步构造、核查严格证明"
+  default_prompt: "使用 $guide-math-learning 按定义顺序讲解这个数学问题，并检查证明中的隐含条件。"

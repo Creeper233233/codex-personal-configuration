@@ -1,0 +1,4 @@
+interface:
+  display_name: "学术写作、LaTeX 与 TikZ"
+  short_description: "按个人规范撰写和翻译学术文本，并保守编辑 LaTeX 与 TikZ 图形"
+  default_prompt: "使用 $edit-academic-writing 按我的写作、LaTeX 与 TikZ 规范处理这份学术材料。"
