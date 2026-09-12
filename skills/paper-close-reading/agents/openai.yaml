@@ -1,0 +1,4 @@
+interface:
+  display_name: "paper-close-reading 论文精读与审阅"
+  short_description: "按照论文原文顺序进行逐段精读、翻译、概念讲解和论证审阅"
+  default_prompt: "Use $paper-close-reading to read this paper in original order, translate each passage into Chinese, explain it step by step, and flag review issues."

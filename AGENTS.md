@@ -26,10 +26,12 @@
 
 ## 任务路由
 
-- 数学概念、解题、推导、证明、反例或证明审阅任务，使用 `guide-math-learning`。
-- 学术写作、翻译、润色、校对、压缩、LaTeX 或 `.tex` 编辑任务，使用 `edit-academic-writing`。
-- 同一任务同时涉及数学推理与写作或排版时，同时使用两个 Skill：数学正确性由数学 Skill 负责，语言与排版由写作 Skill 负责。
-- 不在本文件中重复两个 Skill 已有的详细数学、写作或 LaTeX 规范。
+- 数学概念、解题、推导、证明构造、反例或证明审阅任务，使用 `guide-math-learning`；纯措辞润色或仅 LaTeX 排版而不涉及数学推理时，不使用它。
+- 学术写作、翻译、润色、校对、压缩、术语一致性、LaTeX / `.tex` 编辑，或 TikZ 与学术图示任务，使用 `edit-academic-writing`；纯数学推导而不要求写作、翻译或排版时，不使用它。
+- 用户希望按论文原文顺序逐段阅读、翻译、讲解或审阅论文，而非只要摘要、概述或文献推荐时，使用 `paper-close-reading`。
+- 多步研究、实现或审阅工作预计需要较多工具调用，且需要在多轮对话中保留目标、发现和当前进度时，使用 `planning-with-files`；简单的一次性任务不使用它。
+- 同一任务同时涉及数学推理与写作或排版时，同时使用 `guide-math-learning` 和 `edit-academic-writing`。论文精读任务中的数学推理或证明审阅，同时使用 `guide-math-learning`；涉及学术翻译、术语、语言或 LaTeX 时，同时使用 `edit-academic-writing`。
+- 不在本文件中重复四个 Skill 已有的详细工作流程或规范。
 
 ## 研究与交付
 
