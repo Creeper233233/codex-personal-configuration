@@ -1,20 +1,29 @@
 # Codex 个人配置
 
-更新日期：2026-10-23
+个人协作规则与常用 Skill 索引。
 
-当前版本包含：
+## 全局协作规则
 
-- 全局 `AGENTS.md`
-- `guide-math-learning`
-- `edit-academic-writing`
-- `paper-close-reading`
+- [AGENTS.md](AGENTS.md)：Codex 跨项目协作规则。
 
-此前仓库内容已归档到 `旧版本/2026-08-20/`。
+## Skills
 
-## 外部常用 Skill
+### 自编 Skill
 
-- [`planning-with-files`](https://github.com/OthmanAdi/planning-with-files)：第三方 Skill，由上游项目维护；本仓库仅记录来源，不包含其文件。
+以下 Skill 由我编写并维护，文件统一收录在 [`skills/自编/`](skills/自编/)：
 
-2026-10-23：添加 planning-with-files 上游引用，作为外部常用 Skill 记录。
+- [guide-math-learning](skills/自编/guide-math-learning/)
+- [edit-academic-writing](skills/自编/edit-academic-writing/)
+- [paper-close-reading](skills/自编/paper-close-reading/)
 
-2026-10-16：更新 paper-close-reading，加入原文图片同步展示规则；更新前的该 Skill 已完整归档到 `旧版本/2026-10-16/skills/paper-close-reading/`。
+### 外部引用 Skill
+
+以下 Skill 由上游作者维护，本仓库只记录来源，不复制或维护其文件：
+
+- [planning-with-files](skills/外部引用/planning-with-files.md)：[上游 GitHub 项目](https://github.com/OthmanAdi/planning-with-files)
+
+## 归档与更新记录
+
+- 此前的仓库内容已归档到 [`旧版本/2026-08-20/`](旧版本/2026-08-20/)。
+- 2026-10-23：整理 Skill 目录，区分自编 Skill 与外部引用。
+- 2026-10-16：更新 `paper-close-reading`，加入原文图片同步展示规则；旧版已归档到 [`旧版本/2026-10-16/`](旧版本/2026-10-16/)。
